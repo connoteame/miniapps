@@ -14,8 +14,13 @@
       "project": "**/*.ts",
       "ignore": ["src/comlink/**/*.ts"]
     },
+    "packages/utils": {
+      "entry": "src/main.ts",
+      "project": "**/*.ts"
+    },
     "site": {
       "project": ["**/*.ts", "**/*.tsx", "**/*.mdx"]
     }
   }
+  // Добавлен workspace для пакета utils
 }
